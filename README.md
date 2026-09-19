@@ -45,13 +45,14 @@ export AUDIOPOD_API_KEY=ap_your_key_here
 ### Claude Code
 
 ```bash
-claude plugin marketplace add https://github.com/AudiopodAI/audiopod-plugins
+claude plugin marketplace add AudiopodAI/audiopod-plugins
 claude plugin install audiopod@audiopod
 ```
 
 Then `/audiopod` in a session to see what is available and check the
-connection. The `AudiopodAI/audiopod-plugins` shorthand also works if your git
-is configured for GitHub SSH; the full `https://` URL above works either way.
+connection. The `owner/repo` shorthand falls back to HTTPS when no GitHub SSH
+key is configured; `claude plugin marketplace add https://github.com/AudiopodAI/audiopod-plugins`
+is the explicit equivalent.
 
 ### Gemini CLI
 
