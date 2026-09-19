@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "audiopod": {
+      "type": "streamable-http",
+      "url": "https://mcp.audiopod.ai",
+      "headers": {
+        "X-API-Key": "${AUDIOPOD_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "audiopod",
+  "version": "1.0.0",
+  "description": "Audio AI for agents: text-to-speech, voice cloning, music generation, stem separation, speaker separation, transcription, denoise and media conversion over AudioPod's hosted MCP server, plus 14 task skills.",
+  "author": {
+    "name": "AudioPod AI",
+    "email": "support@audiopod.ai",
+    "url": "https://www.audiopod.ai"
+  },
+  "homepage": "https://docs.audiopod.ai/sdks/mcp",
+  "repository": "https://github.com/AudiopodAI/audiopod-plugins",
+  "license": "MIT",
+  "keywords": [
+    "audio",
+    "text-to-speech",
+    "voice-cloning",
+    "music-generation",
+    "stem-separation",
+    "transcription",
+    "audiobook",
+    "podcast",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "AudioPod AI",
+        "shortDescription": "Speech, voices, music, stems and transcription for your agent",
+        "category": "Productivity"
+      }
+    }
+  }
+}

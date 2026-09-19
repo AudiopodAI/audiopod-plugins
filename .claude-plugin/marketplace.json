@@ -1,0 +1,34 @@
+{
+  "name": "audiopod",
+  "description": "AudioPod AI plugins — hosted audio AI tools and skills for coding agents.",
+  "owner": {
+    "name": "AudioPod AI",
+    "email": "support@audiopod.ai",
+    "url": "https://www.audiopod.ai"
+  },
+  "plugins": [
+    {
+      "name": "audiopod",
+      "source": "./",
+      "displayName": "AudioPod AI",
+      "description": "Audio AI for agents: text-to-speech, voice cloning, music generation, stem separation, speaker separation, transcription, denoise and media conversion over AudioPod's hosted MCP server, plus 14 task skills.",
+      "version": "1.0.0",
+      "author": {
+        "name": "AudioPod AI",
+        "url": "https://www.audiopod.ai"
+      },
+      "homepage": "https://docs.audiopod.ai/sdks/mcp",
+      "repository": "https://github.com/AudiopodAI/audiopod-plugins",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "audio",
+        "text-to-speech",
+        "voice-cloning",
+        "music-generation",
+        "transcription",
+        "mcp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "audiopod",
+  "version": "1.0.0",
+  "description": "Audio AI for agents: text-to-speech, voice cloning, music generation, stem separation, speaker separation, transcription, denoise and media conversion over AudioPod's hosted MCP server.",
+  "author": {
+    "name": "AudioPod AI",
+    "url": "https://www.audiopod.ai"
+  }
+}
