@@ -109,7 +109,7 @@ Skip the plugin layer and point your client straight at the server:
 
 | Tool | Does |
 |---|---|
-| `text_to_speech` | Speech in 85+ languages, 500+ voices and custom clones |
+| `text_to_speech` | Speech in 200+ languages, 500+ voices and custom clones |
 | `clone_voice` | Clone a voice from a 5–30s reference clip |
 | `change_voice` | Convert a recording to a different target voice |
 | `generate_music` | Songs, instrumentals, rap, or vocal stems from a text prompt |
