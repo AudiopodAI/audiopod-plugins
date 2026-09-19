@@ -65,29 +65,14 @@ install and stores it as a sensitive setting.
 
 ### Codex
 
-Browse and install from the plugin directory inside Codex CLI:
-
-```
-/plugins
-```
-
-To try it before it lands in the directory, clone the repo and add it to your
-personal marketplace at `~/.agents/plugins/marketplace.json`:
-
 ```bash
-git clone https://github.com/AudiopodAI/audiopod-plugins.git ~/plugins/audiopod
+codex plugin marketplace add AudiopodAI/audiopod-plugins
+codex plugin add audiopod@audiopod
 ```
 
-```json
-{
-  "plugins": [
-    {
-      "name": "audiopod",
-      "source": { "source": "local", "path": "~/plugins/audiopod" }
-    }
-  ]
-}
-```
+Codex reads the same marketplace manifest this repo ships for Claude Code, then
+loads `plugin.json`, `mcp.json` and `skills/` from the plugin root. `/plugins`
+inside Codex CLI browses configured and remote marketplaces instead.
 
 ### Cursor
 
